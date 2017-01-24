@@ -1,12 +1,29 @@
+
+/**
+ * A class that represents a Duck.
+ * Indented to be extended to specific species.
+ */
 export abstract class Duck {
+
+  /**
+   * Has the duck make a sound
+   */
   quack() {
     console.log("quack!");
   }
 
+  /**
+   * Has the duck swim.
+   * @param distance how far to swim
+   */
   swim(distance:number) {
     console.log("Swims the "+distance+"m duckstyle.")
   }
 
+  /**
+   * Gets the duck's description
+   * @returns A description of the duck
+   */
   abstract display():string;
 }
 
