@@ -30,3 +30,24 @@ Strategy vs Decorator
     so that it can be interchanged at runtime. A behavioral pattern
 * Decorator is ussed to encapsualte state and behavior which can be added at runtime.
     A structural pattern. 
+
+
+---------
+
+Patterns so far...
+* Strategy (behavhioral)
+* Composite (structural)
+* Decorator (structural)
+
+
+Pattern Categories:
+* Behavioral
+    Patterns about how objects communicate and interact (what method to use?) 
+* Structural
+    Patterns about how to organize objects (who references whom?) 
+* Creational
+    Patterns about how to create objects (where is new?)
+
+
+*** For hwk3
+--> write program that works with Ants, regardless of what type of ants they are
