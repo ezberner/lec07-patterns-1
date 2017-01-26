@@ -1,0 +1,32 @@
+Ducks with powers --> what is best way to architect?
+
+Options:
+* Inheritance 
+    - doesn't work because you end up with too many classes
+* Store as attributes
+    - doesn't support changing requirements
+        - add new Ducks
+        - add new powers
+        - add new outfits
+        - what happens when an outfit doesn't apply to a duck?
+        - what if a duck is in two bands?
+
+---> Open-Closed Principle
+* objects need to be open for extension, closed for modification
+
+How have we previously encapsulated STATE and BEHAVIOR
+--> used classes
+
+SOLUTION: WRAPPER CLASSES 
+
+* Decorator pattern
+
+Composite vs Decorator
+* composite: uses composition to represent "part-whole" relationships
+* decorateor: uses composition to add an additional state of BEHAVIOR
+
+Strategy vs Decorator
+* Strategy is used to encapsulate a behvaior (function or algorithm) 
+    so that it can be interchanged at runtime. A behavioral pattern
+* Decorator is ussed to encapsualte state and behavior which can be added at runtime.
+    A structural pattern. 
